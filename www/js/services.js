@@ -23,10 +23,7 @@ angular.module('starter.services', [])
                                     "nombre":result.rows.item(i).nombre,
                                     "apellido":result.rows.item(i).apellido,
                                     "telefono":result.rows.item(i).telefono,
-                                    "email":result.rows.item(i).email,
-                                    "actores":result.rows.item(i).actores
-                            
-                        });
+                                    "email":result.rows.item(i).email});
                       }
                     }
                 },
@@ -61,9 +58,7 @@ angular.module('starter.services', [])
                                     "nombre":result.rows.item(0).nombre,
                                     "apellido":result.rows.item(0).apellido,
                                     "telefono":result.rows.item(0).telefono,
-                                    "email":result.rows.item(0).email,
-                                   "actores":result.rows.item(0).actores
-                        });                 
+                                    "email":result.rows.item(0).email});                 
                 
                     }
                     

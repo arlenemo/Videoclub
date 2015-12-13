@@ -28,18 +28,16 @@
       <span class="input-label">Sinopsis</span>
       <input type="text" name="email" ng-model="persona[0].email" required>
    </label>
-   <label class="item item-input">
-      <span class="input-label">Actores</span>
-      <input type="text" name="actores" ng-model="persona[0].actores" required>
-   </label>
+   
    </div>
    
    <div class="padding">
-        <p ng-show="agregarForm.nombre.$error.required">Escriba el Nombre de la pelicula</p>
-        <p ng-show="agregarForm.apellido.$error.required">Escriba el Año</p>
-        <p ng-show="agregarForm.telefono.$error.required">Escriba el Genero</p>
-        <p ng-show="agregarForm.email.$error.required">Escriba la Sinopsis</p>
-        <p ng-show="agregarForm.actores.$error.required">Escriba los Actores</p>
+        <p ng-show="agregarForm.nombre.$error.required">Escriba el nombre de la pelicula</p>
+        <p ng-show="agregarForm.apellido.$error.required">Escriba el año</p>
+        <p ng-show="agregarForm.telefono.$error.required">Escriba el genero</p>
+        <p ng-show="agregarForm.email.$error.required">Escriba la sinopsis</p>
+        
+       
         <p>{{ statusMessage }}</p>
     </div>
     
@@ -50,6 +48,10 @@
    </button>
    
    </form>
-    
+   
   </ion-content>
+  
+ 
 </ion-view>
+
+    
